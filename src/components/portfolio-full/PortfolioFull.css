@@ -1,0 +1,9 @@
+.protofolio-full-buttons {
+    display: "inline"
+}
+
+.close-btn {
+    right: 17px; 
+    top:3px; 
+    position: absolute;
+}

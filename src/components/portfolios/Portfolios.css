@@ -1,0 +1,4 @@
+.Portfolios {
+    display:flex;
+    flex-wrap:wrap;
+}

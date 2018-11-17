@@ -1,0 +1,61 @@
+
+.sidenav {
+    height: 100%; 
+    /* width: 250px;;  */
+     position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+
+.sidenav-footer {
+    bottom: 10px;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.sidenav-footer a {
+    padding-right: 8px;
+    text-decoration: none;
+    bottom: 8px;
+    font-size: 40px;
+    color: white;
+}
+
+.sidenav-header a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+   text-align: left;
+}
+
+
+#facebook:hover {
+    color: #2153bd;
+}
+
+#twitter:hover {
+    color: #11b6cc;
+}
+#instagram:hover {
+    color: #c4269c;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
